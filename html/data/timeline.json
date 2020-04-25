@@ -1,0 +1,117 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "MacdeMBP.lan",
+    "children" : [ {
+      "name" : "43136-MainThread",
+      "children" : [ {
+        "name" : "test_login",
+        "uid" : "86b021913d59103a",
+        "parentUid" : "56ce490406f026184e0033b5318ec844",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587786955541,
+          "stop" : 1587786955642,
+          "duration" : 101
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login",
+        "uid" : "298d1d9bfae4817a",
+        "parentUid" : "56ce490406f026184e0033b5318ec844",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587786956014,
+          "stop" : 1587786956085,
+          "duration" : 71
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login",
+        "uid" : "6b662612f7ddef7c",
+        "parentUid" : "56ce490406f026184e0033b5318ec844",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587786955647,
+          "stop" : 1587786955746,
+          "duration" : 99
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login",
+        "uid" : "72b3808561c99a8f",
+        "parentUid" : "56ce490406f026184e0033b5318ec844",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587786955751,
+          "stop" : 1587786955920,
+          "duration" : 169
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login",
+        "uid" : "ec567d220ec9aec7",
+        "parentUid" : "56ce490406f026184e0033b5318ec844",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587786956190,
+          "stop" : 1587786956298,
+          "duration" : 108
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login",
+        "uid" : "fbc63d4eada406a2",
+        "parentUid" : "56ce490406f026184e0033b5318ec844",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587786956090,
+          "stop" : 1587786956184,
+          "duration" : 94
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login",
+        "uid" : "2845a536fcfda3f8",
+        "parentUid" : "56ce490406f026184e0033b5318ec844",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587786955441,
+          "stop" : 1587786955536,
+          "duration" : 95
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login",
+        "uid" : "40bffb76be8500a7",
+        "parentUid" : "56ce490406f026184e0033b5318ec844",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587786955925,
+          "stop" : 1587786956009,
+          "duration" : 84
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "56ce490406f026184e0033b5318ec844"
+    } ],
+    "uid" : "8ffba010ef85f397d45d134b7e95e3cf"
+  } ]
+}
