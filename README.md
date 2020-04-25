@@ -164,7 +164,7 @@ class TestUM:
 - 接口用例文件写好后，回到项目主目录
 运行
 <br>```./run.sh```会自动遍历执行case文件夹下所有文件，以及每个文件中的所有接口。
-运行结果
+- 运行结果
 ```shell
 macname@MacdeMacBook-Pro Interface-automation-test % ./run.sh 
 host: default host
