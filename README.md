@@ -6,7 +6,7 @@
 
 # 使用方法
 - 拉下代码
-<br>```git clone ssh://git@github.com:fusu192/Interface-automation-test.git```
+<br>```git clone git@github.com:fusu192/Interface-automation-test.git```
 
 - 进入项目
 <br>```cd Interface-automation-test```
