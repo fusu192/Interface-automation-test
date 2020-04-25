@@ -23,6 +23,33 @@
 - 运行指定id的接口用例，在case文件夹中，文件名中包含id,如"test_HY-34.py"，域名使用动态传入的域名
 <br>```./run.sh -h https://baike.baidu.com -t HY-34```
 
+# 运行效果
+```shell
+macname@MacdeMacBook-Pro Interface-automation-test % ./run.sh 
+host: default host
+task id: not specific, so all case will be test
+Service URL: https://baike.baidu.com
+======================================================== test session starts ========================================================
+platform darwin -- Python 3.6.3, pytest-5.1.0, py-1.8.0, pluggy-0.12.0
+rootdir: /Users/macname/Desktop/interface_automation/Interface-automation-test/case
+plugins: allure-pytest-2.7.1
+collected 8 items                                                                                                                   
+
+test_HY-112.py .                                                                                                              [ 12%]
+test_HY-174_189.py .                                                                                                          [ 25%]
+test_HY-218.py .                                                                                                              [ 37%]
+test_HY-34.py .                                                                                                               [ 50%]
+test_HY-380.py .                                                                                                              [ 62%]
+test_HY-50.py .                                                                                                               [ 75%]
+test_HY-55.py .                                                                                                               [ 87%]
+test_HY-66.py .                                                                                                               [100%]
+
+========================================================= 8 passed in 0.79s =========================================================
+Report successfully generated to ../html
+macname@MacdeMacBook-Pro Interface-automation-test % 
+```
+- 运行后，会生成新的报告模版，保存在html文件夹中，可以将该文件夹拷贝到apache服务器中，在浏览器浏览接口执行结果
+<img src="https://img2020.cnblogs.com/blog/1011634/202004/1011634-20200425184559920-1461980998.png" width = "90%" height = "90%" alt="图片名称" />
 
 # 配置自己的接口自动化测试框架
 上面的其实是一个demo，调用了百度百科的一个get接口,case文件夹中的每个文件中都调用了这一个接口，如果要配置自己的项目，可以通过以下步骤：
@@ -163,34 +190,7 @@ class TestUM:
 - 接口用例文件写好后，回到项目主目录
 运行
 <br>```./run.sh```会自动遍历执行case文件夹下所有文件，以及每个文件中的所有接口。
-- 运行结果
-```shell
-macname@MacdeMacBook-Pro Interface-automation-test % ./run.sh 
-host: default host
-task id: not specific, so all case will be test
-Service URL: https://baike.baidu.com
-======================================================== test session starts ========================================================
-platform darwin -- Python 3.6.3, pytest-5.1.0, py-1.8.0, pluggy-0.12.0
-rootdir: /Users/macname/Desktop/interface_automation/Interface-automation-test/case
-plugins: allure-pytest-2.7.1
-collected 8 items                                                                                                                   
 
-test_HY-112.py .                                                                                                              [ 12%]
-test_HY-174_189.py .                                                                                                          [ 25%]
-test_HY-218.py .                                                                                                              [ 37%]
-test_HY-34.py .                                                                                                               [ 50%]
-test_HY-380.py .                                                                                                              [ 62%]
-test_HY-50.py .                                                                                                               [ 75%]
-test_HY-55.py .                                                                                                               [ 87%]
-test_HY-66.py .                                                                                                               [100%]
-
-========================================================= 8 passed in 0.79s =========================================================
-Report successfully generated to ../html
-macname@MacdeMacBook-Pro Interface-automation-test % 
-```
-
-- 运行后，会生成新的报告模版，保存在html文件夹中，可以将该文件夹拷贝到apache服务器中，在浏览器浏览接口执行结果
-<img src="https://img2020.cnblogs.com/blog/1011634/202004/1011634-20200425184559920-1461980998.png" width = "90%" height = "90%" alt="图片名称" />
 
 
 
