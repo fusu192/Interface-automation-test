@@ -18,10 +18,10 @@
 <br>```./run.sh -h https://baike.baidu.com```
 
 - 运行指定id的接口用例，在case文件夹中，文件名中包含id,如"test_HY-34.py"，不传-h时域名默认使用conf文件夹中的"hostname.yaml"中的"default_baseurl"
-<br>```./run.sh -t HY-55```
+<br>```./run.sh -t HY-34```
 
 - 运行指定id的接口用例，在case文件夹中，文件名中包含id,如"test_HY-34.py"，域名使用动态传入的域名
-<br>```./run.sh -h https://baike.baidu.com -t HY-55```
+<br>```./run.sh -h https://baike.baidu.com -t HY-34```
 
 
 # 配置自己的接口自动化测试框架
@@ -45,7 +45,6 @@ sys.path.append("../")
 from util.getinfolib import GetInfo
 
 log = logging.getLogger(__name__)
-
 
 class TestUM:
     def setup_class(self):
@@ -103,7 +102,6 @@ class TestUM:
 
 #每个用例文件中前面的代码都可以不必修改，直接拷贝过来，我们只需要添加下面这些新的函数
 
-
     # 1  login，这是一个登陆接口
     def test_login(self):
     
@@ -144,7 +142,6 @@ class TestUM:
         self.dic["id"]=r.json()['data']['content'][0]['id']
 
 
-
     # 3 渔民 接收连单详情
     def test_fisherman_collect_details(self):
         
@@ -162,6 +159,12 @@ class TestUM:
 
 ```
 
+- 每个文件是一个功能模块的全部接口，比如用户列表的增删改查，公司列表的增删改查，文件中的接口间数据传递可以参考上面的代码
+
+- 接口用例文件写好后，回到项目主目录
+运行
+<br>```./run.sh```
+会自动遍历case下所有文件，以及每个文件中的所有接口。
 
 
 find test report from `html/index.html`
