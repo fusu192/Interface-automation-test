@@ -1,7 +1,15 @@
 # Interface-automation-test
 接口自动化测试项目
 
-# Quick start
+# 环境
+- python3.6
+
+# 使用方法
+- 拉下代码
+<br>```git clone ssh://git@github.com:fusu192/Interface-automation-test.git```
+
+- 进入项目
+<br>```cd Interface-automation-test```
 
 - 运行case文件夹下所有接口用例
 <br>```./run.sh```
