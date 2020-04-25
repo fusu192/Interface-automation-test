@@ -28,6 +28,10 @@
 上面的其实是一个demo，调用了百度百科的一个get接口,case文件夹中的每个文件中都调用了这一个接口，如果要配置自己的项目，可以通过以下步骤：
 
 一.配置接口域名
+```yaml
+data: {default_baseurl: 'https://baike.baidu.com', is_passed: true, new_baseurl: 'https://baike.baidu.com'}
+```
+
 ```python
 # coding=utf-8
 import json
