@@ -68,7 +68,7 @@ class TestUM:
 ```
 需要修改的是类中的test开头的函数，比如上面的test_login 函数，service_url是拼接的完整接口地址，self.url读取的就是conf文件夹下hostname.yaml文件中的 default_baseurl 地址,地址拼接好后，payload是待传参数,再往下是发送请求,然后开始断言,这就是一个接口的编写过程，返回值全在对象r之中，所以具体断言到哪一层，可以自由选择，本文中只断言了返回的状态码。
 
-- 以下是涉及接口间参数传递的例子
+- 以下是涉及接口间参数传递的例子（在case文件夹中新增test_HY-66.py文件）
 ```python
 # coding=utf-8
 import json
