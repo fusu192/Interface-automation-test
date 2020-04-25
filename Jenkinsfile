@@ -5,7 +5,7 @@ node("cd-server") {
 
     stage('Clone Code') {
         echo ">>>>>>>>>> Stage 2. Clone Code"
-        git credentialsId: '07f48ec0-75ad-45d5-9352-9xxxxxxxx6d', url: 'ssh://git@github.com:fusu192/Interface-automation-test.git'
+        git credentialsId: '07f48ec0-75ad-45d5-9352-9xxxxxxxx6d', url: 'git@github.com:fusu192/Interface-automation-test.git'
     }
 
     stage('Exec Test Suit') {
