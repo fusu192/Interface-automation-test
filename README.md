@@ -9,7 +9,9 @@
     ./run.sh
     ## run all test case in spec URL
     ./run.sh -h ${URL}
+    例子：./run.sh -h https://baike.baidu.com
     ## run spec test case based on filename
     ./run.sh -t ${HY-55}
+    例子：./run.sh -t HY-55
     ```
     find test report from `html/index.html`
