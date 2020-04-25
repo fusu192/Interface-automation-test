@@ -1,12 +1,12 @@
 {
-  "uid" : "fbc63d4eada406a2",
+  "uid" : "87ec3b87c9af6b89",
   "name" : "test_login",
-  "fullName" : "test_HY-55.TestUM#test_login",
-  "historyId" : "7ca06075d7b4909d824d332e0fb3fa0f",
+  "fullName" : "test_HY-174_189.TestUM#test_login",
+  "historyId" : "646ecb92eae2e0152cd22a03aecf39da",
   "time" : {
-    "start" : 1587786956090,
-    "stop" : 1587786956184,
-    "duration" : 94
+    "start" : 1587812017689,
+    "stop" : 1587812017737,
+    "duration" : 48
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "_Class__pytest_setup_class",
     "time" : {
-      "start" : 1587786956088,
-      "stop" : 1587786956090,
-      "duration" : 2
+      "start" : 1587812017687,
+      "stop" : 1587812017688,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -30,8 +30,8 @@
   "afterStages" : [ {
     "name" : "_Class__pytest_setup_class::0",
     "time" : {
-      "start" : 1587786956185,
-      "stop" : 1587786956185,
+      "start" : 1587812017738,
+      "stop" : 1587812017738,
       "duration" : 0
     },
     "status" : "passed",
@@ -47,7 +47,7 @@
     "name" : "parentSuite"
   }, {
     "name" : "suite",
-    "value" : "test_HY-55"
+    "value" : "test_HY-174_189"
   }, {
     "name" : "subSuite",
     "value" : "TestUM"
@@ -56,7 +56,7 @@
     "value" : "MacdeMBP.lan"
   }, {
     "name" : "thread",
-    "value" : "43136-MainThread"
+    "value" : "44236-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -65,7 +65,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "test_HY-55"
+    "value" : "test_HY-174_189"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -80,6 +80,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "fbc63d4eada406a2.json",
+  "source" : "87ec3b87c9af6b89.json",
   "parameterValues" : [ ]
 }

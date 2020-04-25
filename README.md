@@ -111,7 +111,7 @@ from util.getinfolib import GetInfo
 
 log = logging.getLogger(__name__)
 
-# 入仓记录
+# 入仓记录相关接口
 
 class TestUM:
     def setup_class(self):
@@ -126,7 +126,7 @@ class TestUM:
             ,'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36'
         }
 
-#每个用例文件中前面的代码都可以不必修改，直接拷贝过来，我们只需要添加下面这些新的函数
+#每个用例文件中从这里开始，前面的代码都可以不必修改，直接拷贝过来，我们只需要添加下面这些新的函数
 
     # 1  login，这是一个登陆接口
     def test_login(self):
@@ -134,7 +134,7 @@ class TestUM:
         #拼接接口地址
         service_url = self.url + "/login/app"
         
-        #参数
+        #待传参数
         payload = {
             "username": "shouji(勿删)",
             "password": "123"
@@ -184,7 +184,6 @@ class TestUM:
         assert r.json()["code"] ==200 
 
 ```
-
 - 每个文件是一个功能模块的全部接口，比如用户列表的增删改查，公司列表的增删改查，文件中的接口间数据传递可以参考上面的代码
 
 - 接口用例文件写好后，回到项目主目录
