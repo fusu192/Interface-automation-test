@@ -27,7 +27,6 @@
 # 配置自己的接口自动化测试框架
 上面的其实是一个demo，调用了百度百科的一个get接口,case文件夹中的每个文件中都调用了这一个接口，如果要配置自己的项目，可以通过以下步骤：
 
-一.配置接口域名
 - 在conf文件夹下，编辑hostname.yaml 文件，将下方的default_baseurl以及new_baseurl的地址改为待测项目的域名地址
 ```yaml
 data: {default_baseurl: 'https://baike.baidu.com', is_passed: true, new_baseurl: 'https://baike.baidu.com'}
@@ -189,7 +188,6 @@ test_HY-66.py .                                                                 
 Report successfully generated to ../html
 macname@MacdeMacBook-Pro Interface-automation-test % 
 ```
-
 
 - 运行后，会生成新的报告模版，保存在html文件夹中，可以将该文件夹拷贝到apache服务器中，在浏览器浏览接口执行结果
 <img src="https://img2020.cnblogs.com/blog/1011634/202004/1011634-20200425184559920-1461980998.png" width = "90%" height = "90%" alt="图片名称" />
