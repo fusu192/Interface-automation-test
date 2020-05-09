@@ -1,8 +1,9 @@
 # Interface-automation-test
 接口自动化测试项目
 
-# 环境
+# 运行环境
 - python3.6
+- centos7 && mac && linux
 
 # 使用方法
 - 拉下代码
