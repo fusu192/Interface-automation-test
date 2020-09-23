@@ -190,8 +190,7 @@ class TestUM:
 - 接口用例文件写好后，回到项目主目录
 运行
 <br>```./run.sh```会自动遍历执行case文件夹下所有文件，以及每个文件中的所有接口。
-- 运行效果
-<br>调试执行一个用例文件
+- 运行效果,调试执行一个用例文件
 ```shell
 macname@MacdeMBP case % 
 macname@MacdeMBP case % pytest test_HY-34.py  -o log_cli=true -o log_cli_level=INFO
@@ -206,7 +205,7 @@ test_HY-34.py::TestUM::test_login PASSED                                        
 ================================================ 1 passed in 0.39s =================================================
 macname@MacdeMBP case % 
 ```
-执行全部用例文件，生成报告
+- 运行效果,执行全部用例文件，生成报告
 ```shell
 macname@MacdeMacBook-Pro Interface-automation-test % ./run.sh 
 host: default host
