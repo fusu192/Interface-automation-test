@@ -191,7 +191,7 @@ class TestUM:
 运行
 <br>```./run.sh```会自动遍历执行case文件夹下所有文件，以及每个文件中的所有接口。
 - 运行效果
-调试执行一个用例文件
+<br>调试执行一个用例文件
 ```shell
 macname@MacdeMBP case % 
 macname@MacdeMBP case % pytest test_HY-34.py  -o log_cli=true -o log_cli_level=INFO
