@@ -1,12 +1,12 @@
 {
-  "uid" : "b71910112176c278",
+  "uid" : "e366a84298d0ad94",
   "name" : "test_login",
-  "fullName" : "test_HY-55.TestUM#test_login",
-  "historyId" : "7ca06075d7b4909d824d332e0fb3fa0f",
+  "fullName" : "test_HY-50.TestUM#test_login",
+  "historyId" : "a7a5ca7bc363d3323ebe199ca84021bd",
   "time" : {
-    "start" : 1587812017978,
-    "stop" : 1587812018039,
-    "duration" : 61
+    "start" : 1600852556994,
+    "stop" : 1600852557158,
+    "duration" : 164
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,8 +14,8 @@
   "beforeStages" : [ {
     "name" : "_Class__pytest_setup_class",
     "time" : {
-      "start" : 1587812017977,
-      "stop" : 1587812017978,
+      "start" : 1600852556992,
+      "stop" : 1600852556993,
       "duration" : 1
     },
     "status" : "passed",
@@ -30,9 +30,9 @@
   "afterStages" : [ {
     "name" : "_Class__pytest_setup_class::0",
     "time" : {
-      "start" : 1587812018040,
-      "stop" : 1587812018040,
-      "duration" : 0
+      "start" : 1600852557158,
+      "stop" : 1600852557159,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -47,7 +47,7 @@
     "name" : "parentSuite"
   }, {
     "name" : "suite",
-    "value" : "test_HY-55"
+    "value" : "test_HY-50"
   }, {
     "name" : "subSuite",
     "value" : "TestUM"
@@ -56,7 +56,7 @@
     "value" : "MacdeMBP.lan"
   }, {
     "name" : "thread",
-    "value" : "44236-MainThread"
+    "value" : "57659-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -65,7 +65,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "test_HY-55"
+    "value" : "test_HY-50"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -80,6 +80,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "b71910112176c278.json",
+  "source" : "e366a84298d0ad94.json",
   "parameterValues" : [ ]
 }

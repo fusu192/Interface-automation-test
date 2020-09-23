@@ -66,7 +66,7 @@ import json
 import logging
 import os
 import sys
-sys.path.append("/".join(os.path.dirname(os.path.abspath(__file__)).split("/")[:-1])+'/lib')
+sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),"lib"))
 import requests
 sys.path.append("../")
 from util.getinfolib import GetInfo
@@ -105,7 +105,7 @@ import os
 import sys
 import datetime
 import time
-sys.path.append("/".join(os.path.dirname(os.path.abspath(__file__)).split("/")[:-1])+'/lib')
+sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),"lib"))
 import requests
 sys.path.append("../")
 from util.getinfolib import GetInfo
@@ -191,6 +191,22 @@ class TestUM:
 运行
 <br>```./run.sh```会自动遍历执行case文件夹下所有文件，以及每个文件中的所有接口。
 - 运行效果
+调试执行一个用例文件
+```shell
+macname@MacdeMBP case % 
+macname@MacdeMBP case % pytest test_HY-34.py  -o log_cli=true -o log_cli_level=INFO
+=============================================== test session starts ================================================
+platform darwin -- Python 3.7.4, pytest-5.1.2, py-1.8.0, pluggy-0.13.0
+rootdir: /Users/macname/Desktop/api_auto/Interface-automation-test/case
+plugins: ordering-0.6, cov-2.8.1
+collected 1 item                                                                                                   
+
+test_HY-34.py::TestUM::test_login PASSED                                                                     [100%]
+
+================================================ 1 passed in 0.39s =================================================
+macname@MacdeMBP case % 
+```
+执行全部用例文件，生成报告
 ```shell
 macname@MacdeMacBook-Pro Interface-automation-test % ./run.sh 
 host: default host

@@ -1,6 +1,7 @@
 
 
 #!/bin/bash
+#单个用例运行命令: pytest test_HY-34.py -o log_cli=true -o log_cli_level=INFO
 
 # shell param setting
 while getopts ":h:t:" opt

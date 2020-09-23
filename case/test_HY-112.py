@@ -5,7 +5,7 @@ import os
 import sys
 import datetime
 import time
-sys.path.append("/".join(os.path.dirname(os.path.abspath(__file__)).split("/")[:-1])+'/lib')
+sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),"lib"))
 import requests
 sys.path.append("../")
 from util.getinfolib import GetInfo

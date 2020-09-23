@@ -1,12 +1,12 @@
 {
-  "uid" : "94dc643af0e87977",
+  "uid" : "74fd403bc30f9a25",
   "name" : "test_login",
   "fullName" : "test_HY-112.TestUM#test_login",
   "historyId" : "4171c34bc3cbe8be41c7d3a84682a145",
   "time" : {
-    "start" : 1587812017527,
-    "stop" : 1587812017684,
-    "duration" : 157
+    "start" : 1600852555803,
+    "stop" : 1600852556319,
+    "duration" : 516
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "_Class__pytest_setup_class",
     "time" : {
-      "start" : 1587812017524,
-      "stop" : 1587812017525,
-      "duration" : 1
+      "start" : 1600852555799,
+      "stop" : 1600852555801,
+      "duration" : 2
     },
     "status" : "passed",
     "steps" : [ ],
@@ -30,8 +30,8 @@
   "afterStages" : [ {
     "name" : "_Class__pytest_setup_class::0",
     "time" : {
-      "start" : 1587812017685,
-      "stop" : 1587812017685,
+      "start" : 1600852556320,
+      "stop" : 1600852556320,
       "duration" : 0
     },
     "status" : "passed",
@@ -56,7 +56,7 @@
     "value" : "MacdeMBP.lan"
   }, {
     "name" : "thread",
-    "value" : "44236-MainThread"
+    "value" : "57659-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -80,6 +80,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "94dc643af0e87977.json",
+  "source" : "74fd403bc30f9a25.json",
   "parameterValues" : [ ]
 }
