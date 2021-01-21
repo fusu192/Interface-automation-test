@@ -4,6 +4,7 @@ import os
 import sys
 sys.path.append("/".join(os.path.dirname(os.path.abspath(__file__)).split("/")[:-1])+'/lib')
 import yaml
+yaml.warnings({'YAMLLoadWarning': False})
 
 conf_file = "/".join(os.path.dirname(os.path.abspath(__file__)).split("/")[:-1]) + "/conf/hostname.yaml"
 with open(conf_file,'r',encoding='utf-8') as f:
