@@ -2,7 +2,7 @@
 接口自动化测试项目
 
 # 运行环境
-- python3.6
+- python3.6.3
 - centos7 && mac && linux
 
 # 使用方法
